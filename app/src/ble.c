@@ -59,7 +59,7 @@ enum advertising_type advertising_status;
 static struct zmk_ble_profile profiles[ZMK_BLE_PROFILE_COUNT];
 static uint8_t active_profile;
 
-static bool permit_adv = true;
+static bool permit_adv = false;
 
 #define DEVICE_NAME CONFIG_BT_DEVICE_NAME
 #define DEVICE_NAME_LEN (sizeof(DEVICE_NAME) - 1)
